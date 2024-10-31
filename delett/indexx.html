@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    
+    <form action="#">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name"/>
+        </div>
+
+        <label for="theme">Choose</label>
+        <select id="theme">
+            <option value="">Select an option</option>
+            <option value="one">1</option>
+            <option value="two">2</option>
+            <option value="three">3</option>
+        </select>
+
+        <label for="check">Check</label>
+        <input type="checkbox" id="check"/>
+        <label for="check">Check 2</label>
+        <input id="check" type="checkbox"/><br/>
+
+        <input type="submit" value="Send It"/>
+    </form>
 </body>
 </html>
